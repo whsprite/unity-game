@@ -60,6 +60,7 @@
     <Compile Include="Assets\Bullet.cs" />
     <Compile Include="Assets\TankFire.cs" />
     <Compile Include="Assets\Move.cs" />
+    <Compile Include="Assets\Follow.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

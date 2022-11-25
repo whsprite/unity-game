@@ -36,6 +36,7 @@ public class TankFire : MonoBehaviour
             GameObject fireInstance =
                 GameObject.Instantiate(firePrefab, _firePosition.position, _firePosition.rotation);
             fireInstance.AddComponent<Bullet>();
+            Physics.IgnoreCollision(fireInstance.GetComponent<SphereCollider>(), gameObject.GetComponent<SphereCollider>());
             //发射炮弹，给炮弹的刚体组件一个速度和方向
             fireInstance.GetComponent<Rigidbody>().velocity = fireInstance.transform.forward * shellSpeed;
             t1 = Time.fixedTime;
