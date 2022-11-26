@@ -2,9 +2,11 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+
 public class Enemy : MonoBehaviour
 {
     // Start is called before the first frame update
+    public ParticleSystem p;
     void Start()
     {
         
@@ -20,7 +22,8 @@ public class Enemy : MonoBehaviour
     {
         if (other.tag == "Bullet")
         {
-            Destroy(this.gameObject);
+            p.Play();
+            Destroy(this.gameObject, 0.5f);
         }
 
     }
