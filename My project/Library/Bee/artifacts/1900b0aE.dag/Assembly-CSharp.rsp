@@ -354,8 +354,11 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEditor.UI.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll"
 "Assets/Bullet.cs"
+"Assets/BulletEnemy.cs"
 "Assets/CameraFollow.cs"
+"Assets/Enemy.cs"
 "Assets/Follow.cs"
+"Assets/Health.cs"
 "Assets/Move.cs"
 "Assets/TankFire.cs"
 -langversion:9.0

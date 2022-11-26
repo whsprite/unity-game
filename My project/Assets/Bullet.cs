@@ -4,9 +4,7 @@ using UnityEngine;
 
 public class Bullet : MonoBehaviour
 {
-    private float t1;
-    private float t2;
-    private int check;
+
 
     // Start is called before the first frame update
     void Start()

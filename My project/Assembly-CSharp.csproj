@@ -61,6 +61,9 @@
     <Compile Include="Assets\TankFire.cs" />
     <Compile Include="Assets\Move.cs" />
     <Compile Include="Assets\Follow.cs" />
+    <Compile Include="Assets\Health.cs" />
+    <Compile Include="Assets\BulletEnemy.cs" />
+    <Compile Include="Assets\Enemy.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

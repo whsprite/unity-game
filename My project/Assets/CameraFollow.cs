@@ -4,19 +4,17 @@ using UnityEngine;
 
 public class CameraFollow : MonoBehaviour
 {
-    public GameObject Target;
-    public float smooth = 2f;
-    Vector3 distance;
-    // Start is called before the first frame update
+    public Transform target;
+    private Vector3 offset;
+
     void Start()
     {
-        distance = transform.position - Target.transform.position;
+        //设置相对偏移
+        offset = target.position - this.transform.position;
     }
 
-    // Update is called once per frame
-    void LateUpdate()
+    void FixedUpdate()
     {
-        transform.position = Vector3.Lerp(Target.transform.position + distance, transform.position, Time.deltaTime * smooth);
-        transform.LookAt(Target.transform.position);//摄像头Wink物体，不然不丝滑
+        this.transform.position = target.position - offset;
     }
 }
