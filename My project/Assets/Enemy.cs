@@ -24,6 +24,7 @@ public class Enemy : MonoBehaviour
         {
             p.Play();
             Destroy(this.gameObject, 0.5f);
+            EnemyBorn.Kill();
         }
 
     }

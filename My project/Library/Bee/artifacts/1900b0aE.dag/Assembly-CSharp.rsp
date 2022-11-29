@@ -357,6 +357,7 @@
 "Assets/BulletEnemy.cs"
 "Assets/CameraFollow.cs"
 "Assets/Enemy.cs"
+"Assets/EnemyBorn.cs"
 "Assets/Follow_1.cs"
 "Assets/Follow_2.cs"
 "Assets/Health.cs"

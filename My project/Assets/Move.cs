@@ -5,6 +5,7 @@ public class Move : MonoBehaviour
     private CharacterController cc;
     public float speed = 40;
 
+
     void Start()
     {
         cc = GetComponent<CharacterController>();

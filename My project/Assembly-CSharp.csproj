@@ -59,12 +59,13 @@
     <Compile Include="Assets\Enemy.cs" />
     <Compile Include="Assets\CameraFollow.cs" />
     <Compile Include="Assets\Bullet.cs" />
+    <Compile Include="Assets\EnemyBorn.cs" />
     <Compile Include="Assets\BulletEnemy.cs" />
     <Compile Include="Assets\TankFire.cs" />
+    <Compile Include="Assets\Follow_2.cs" />
     <Compile Include="Assets\Move.cs" />
     <Compile Include="Assets\Health.cs" />
     <Compile Include="Assets\Follow_1.cs" />
-    <Compile Include="Assets\Follow_2.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

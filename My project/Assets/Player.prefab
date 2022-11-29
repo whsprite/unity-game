@@ -45,6 +45,7 @@ GameObject:
   - component: {fileID: 6884375908364456637}
   - component: {fileID: 6884375908364456633}
   - component: {fileID: 6884375908364456583}
+  - component: {fileID: 8969522137588227100}
   - component: {fileID: 6884375908364456632}
   m_Layer: 0
   m_Name: Player
@@ -165,6 +166,20 @@ MonoBehaviour:
   firePrefab: {fileID: 8143522531279630747, guid: 24177e0de4ca74941ba86fa91fe71a66, type: 3}
   mKeyCode: 102
   shellSpeed: 35
+--- !u!114 &8969522137588227100
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6884375908364456638}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e2f512a6d91e3fc4d899887b49ef52f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enemyPrefab: {fileID: 6053568426161879371, guid: c57523adfc7d20143b3a5224cf3310f5, type: 3}
+  enemy_num: 5
 --- !u!114 &6884375908364456632
 MonoBehaviour:
   m_ObjectHideFlags: 0

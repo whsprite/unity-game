@@ -119,7 +119,7 @@ MonoBehaviour:
   target: {fileID: 6884375908364456634, guid: 7b45526ee58556145acdeba4cfb4c9cb, type: 3}
   attackDistanceThreshold: 25
   firePrefab: {fileID: 8143522531279630747, guid: 7a472968a4d1ff245ab7dacb39e91db8, type: 3}
-  shellSpeed: 10
+  shellSpeed: 20
 --- !u!195 &6053568426161879372
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -154,6 +154,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b01e644af4e2c7545bcd166c021a050a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  p: {fileID: -6948075824171040660}
 --- !u!198 &-6948075824171040660
 ParticleSystem:
   m_ObjectHideFlags: 0
