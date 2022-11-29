@@ -14,7 +14,7 @@ public class Follow_1 : MonoBehaviour
 
     float nextAttackTime;
     // 1 second.
-    float timeBetweenAttacks = 1;
+    float timeBetweenAttacks = 2;
     //炮弹物体，再untiy面板中赋值
     public GameObject firePrefab;
     //炮弹速度，可在unity面板中赋值

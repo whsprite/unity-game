@@ -117,7 +117,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 6884375908364456634, guid: 7b45526ee58556145acdeba4cfb4c9cb, type: 3}
-  attackDistanceThreshold: 25
+  attackDistanceThreshold: 30
   firePrefab: {fileID: 8143522531279630747, guid: 7a472968a4d1ff245ab7dacb39e91db8, type: 3}
   shellSpeed: 20
 --- !u!195 &6053568426161879372
@@ -130,7 +130,7 @@ NavMeshAgent:
   m_Enabled: 1
   m_AgentTypeID: 0
   m_Radius: 0.5
-  m_Speed: 15
+  m_Speed: 12
   m_Acceleration: 8
   avoidancePriority: 50
   m_AngularSpeed: 999
